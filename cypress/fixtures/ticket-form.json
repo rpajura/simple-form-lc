@@ -1,0 +1,22 @@
+{
+    "ticketForm": {
+        "name": "test name",
+        "email": "test@email.com",
+        "subject": "test subject",
+        "message": "test message"
+    },
+    "newTicketresponse": {
+        "success": {
+            "body": {
+                "id": "ABCD"
+            },
+            "statusCode": 200
+        },
+        "failure": {
+            "body": {
+                "error": "Inernal server error"
+            },
+            "statusCode": 500
+        }
+    }
+}
